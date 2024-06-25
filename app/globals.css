@@ -1,4 +1,13 @@
 @tailwind base;
   @tailwind components;
   @tailwind utilities;
-  
+
+
+body {
+  .container {
+    @media (min-width: 1024px) {
+      max-width: 80%;
+      margin: 0 auto;
+    }
+  }
+}
